@@ -11,5 +11,5 @@ steps:
     settings:
       repo: KrinaVadgama/drone-ci-demo
       username: KrinaVadgama
-      password: krina@1724
+      password: Krina@1724
       auto_tag: true
