@@ -1,6 +1,5 @@
 ---
-kind: pipeline
-name: deploy
+
 
 steps:
   - name: pre-check
