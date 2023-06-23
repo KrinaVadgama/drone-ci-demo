@@ -1,5 +1,6 @@
 ---
-
+kind: pipeline
+name: deploy
 
 steps:
   - name: pre-check
@@ -40,6 +41,7 @@ steps:
       repo: allovince/drone-ci-demo
       username: allovince
       password:
+
         from_secret: DOCKER_PASSWORD
       tag:
         - ${DRONE_BRANCH##feature/}
