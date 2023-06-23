@@ -39,10 +39,7 @@ steps:
     image: plugins/docker
     settings:
       repo: allovince/drone-ci-demo
-      username: allovince
-      password:
 
-        from_secret: DOCKER_PASSWORD
       tag:
         - ${DRONE_BRANCH##feature/}
     when:
