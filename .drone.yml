@@ -1,9 +1,9 @@
 ---
 kind: pipeline
-name: deploy
+name: deploy-new-Stage
 
 steps:
-  - name: pre-check
+  - name: pre-check-1
     image: docker
     environment:
       DOCKER_PASSWORD:
